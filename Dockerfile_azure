@@ -1,0 +1,11 @@
+FROM continuumio/miniconda
+
+COPY test.py .
+RUN conda update python
+RUN pip install azure-storage-blob
+RUN pip install flask
+ 
+EXPOSE 5000
+
+ENTRYPOINT ["python"]
+CMD [ "test.py" ]
