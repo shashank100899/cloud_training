@@ -1,0 +1,2 @@
+azure_storage_connection_string : "DefaultEndpointsProtocol=https;AccountName=shashank100899;AccountKey=1Wx6KMbpbZjfteONy+K5xS4qsz0+FRkk8hMwvk8zMyj0wqf7HPsO8FYXfEVnr7J5HJAd79NM8Qty+AStMDvm9Q==;EndpointSuffix=core.windows.net"
+container_name : "models"
